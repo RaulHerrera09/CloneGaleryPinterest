@@ -130,3 +130,30 @@
     height: 40px;
     border-radius: 5px
 } 
+@media (max-width: 768px) {
+    #navbar-pinterest {
+    height: 80px;
+    padding: 20px;
+    }
+    .finder {
+    flex: 1;
+    margin-left: 20px;
+    }
+    #notifications, #message, #profile-img {
+    margin-left: 0;
+    }
+    .card-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: -40px;
+    right: 50%;
+    
+    opacity: 1;
+    }
+    .card-buttons a {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    }
+    
